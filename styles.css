@@ -1,0 +1,53 @@
+.h2 {
+    font-family: "Lucida Console", "Courier New", monospace
+}
+
+body {
+    font-family: "Trirong", serif;
+}
+.display {
+    display: flex;
+    flex-direction: column;
+   /*ackground-color:linear-gradient(#ffc400;)*/
+   background: linear-gradient(#ffc400,blue);
+    height:300px;
+    max-width: 700px;
+    align-items: center;
+    gap:10px;
+    
+}
+option {
+    font-family: "Trirong", serif;
+}
+:placeholder-shown {
+    font-family: "Trirong", serif;
+}
+.base-amount {
+    margin-left: 5px;
+}
+
+.submitbtn {
+    margin-top: 10px;
+    font-family: "Trirong", serif;
+    align-self: center;
+    
+}
+
+.group{
+    display: flex;
+    margin-top: 20px;
+}
+
+select {
+    font-family: "Trirong", serif;
+}
+
+.result {
+    font-family: "Trirong", serif;
+}
+.from {
+    margin-left: 10px;
+}
+.to {
+    margin-left:10px;
+}
