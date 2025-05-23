@@ -1,8 +1,10 @@
 
-
+const API_BASE_URL = window.location.hostname === "localhost" 
+  ? "http://localhost:5000" 
+  : "https://currency-converter-a7d7.onrender.com";
 async function requestExchange(baseCurrency) {
     try {
-        let response = await fetch(`http://localhost:5000/exchange-rates/${baseCurrency}`);
+        let response = await fetch(`${API_BASE_URL}/exchange-rates/${baseCurrency}`);
         let data = await response.json();
         return data;
 
